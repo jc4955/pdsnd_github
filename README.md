@@ -5,7 +5,7 @@ This project started July 31st 2020 and the README.md file was created on August
 Explore Bikeshare Data
 
 ### Description
-For this project, I will use Python to investigate data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. The code will import the data from these files and respond to questions by utilizing descriptive statistics. This will also include a script that takes in raw input and create an interactive experience for the user.
+For this project, I chose to use Python to investigate data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. The code will import the data from these files and respond to questions by utilizing descriptive statistics. This will also include a script that takes in raw input and create an interactive experience for the user.
 
 ### Files used
 These are the data files that were used.
