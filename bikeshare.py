@@ -81,7 +81,7 @@ def load_data(city, month, day):
 
 def time_stats(df):
     
-    """Displays statistics on the most frequent times of travel."""
+    """Based on user inputs, display statistics on the most frequent times of travel."""
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['month']= df['Start Time'].dt.month
     df['day_of_week']= df['Start Time'].dt.weekday_name
