@@ -22,13 +22,13 @@ def get_filters():
     while True:
         city=str(input('Select a city from Chicago, New York City and Washington. \n')).lower()
         if city not in cities:
-            print('Please enter a valid city name')
+            print('Please enter a valid city name of Chicago, New York City or Wasgington')
         else:
             break
 
     # get user input for month (all, january, february, ... , june)
     while True:
-        month=str(input('Do you want to filter by month? If yes, then type out the month. If not, type in all\n')).title()
+        month=str(input('Do you want to filter by month? If yes, then spell of the exact month. If not, type in all\n')).title()
         if month not in months:
             print('Please enter a valid month name - all, january, february, ... , june')
         else:
